@@ -1,15 +1,15 @@
 N = int(input())
-list = []
+dost = []
 dentro = 0
 fora = 0
 cm =0
 
 while cm < N:
     vector = int(input())
-    list.append(vector)
+    dost.append(vector)
     cm = cm + 1
 
-for i in list:
+for i in dost:
     if (i >= 10) and (i <= 20):
         dentro = dentro + 1
     if (i < 10) or (i > 20):
